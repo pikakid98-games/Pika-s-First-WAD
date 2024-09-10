@@ -1,0 +1,8 @@
+
+desktop.ini
+*.backup*
+*.autosave*
+.Cmpl8r
+Output
+*.o
+*.dbs

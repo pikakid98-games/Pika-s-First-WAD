@@ -1,0 +1,3 @@
+IWAD = "doom2.wad"
+STARTUPTITLE = "Pika's First WAD"
+STARTUPCOLORS = "FFFF00","404040"

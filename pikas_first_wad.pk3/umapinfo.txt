@@ -1,0 +1,9 @@
+Map MAP01
+{
+    levelname = "Malum Primum Inceptum"
+    label = "Malum Primum Inceptum"
+    author = "Pikakid98"
+    music = "d_e1m9"
+    partime = 66
+    endgame = true
+}

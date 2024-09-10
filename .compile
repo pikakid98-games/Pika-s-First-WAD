@@ -1,0 +1,21 @@
+mkdir ".Cmpl8r\wad"
+
+robocopy "pikas_first_wad.pk3" ".Cmpl8r\wad" /MIR
+
+del ".Cmpl8r\wad\*.dbs" /S /Q
+del ".Cmpl8r\wad\*.backup*" /S /Q
+del ".Cmpl8r\wad\*.autosave*" /S /Q
+
+mkdir ".Cmpl8r"
+
+cd ".Cmpl8r\wad"
+
+"%sevenz%" a "..\..\Output\pikas_first_wad.zip" "*"
+
+cd "..\.."
+
+rmdir ".Cmpl8r\wad" /S /Q
+
+ren "Output\*.zip" "*.pk3"
+
+copy "readme.txt" "Output"
