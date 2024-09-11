@@ -6,7 +6,7 @@ You need the following:
 
 - A valid DooM II (or FreeDooM: Phase 2) IWAD
 
-[DooM II](https://store.steampowered.com/app/2300/DOOM_II)
+[DooM II](https://store.steampowered.com/app/2280)
 \
 [FreeDooM](https://github.com/freedoom/freedoom/releases)
 
